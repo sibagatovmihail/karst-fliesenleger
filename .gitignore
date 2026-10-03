@@ -1,0 +1,6 @@
+tools/*.ttf
+tools/src/
+tools/visitenkarte.jpg
+.playwright-mcp/
+.DS_Store
+CLAUDE.md

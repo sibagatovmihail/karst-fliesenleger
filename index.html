@@ -1,0 +1,523 @@
+<!doctype html>
+<!--
+  Designentwurf „Karst Fliesenleger“, Neubrandenburg
+  Gestaltung und Code © 2026 Mykhailo Sibahatov. Alle Rechte vorbehalten.
+  Nur zur Ansicht. Kopieren, Veröffentlichen oder Weiterverwenden ohne schriftliche
+  Vereinbarung ist nicht gestattet. Siehe LICENSE.
+-->
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Karst Fliesenleger · Fliesen, Platten &amp; Mosaik in Neubrandenburg</title>
+  <meta name="description" content="Oliver Karst, Fliesenleger in Neubrandenburg: Fliesen, Platten und Mosaik für Bad, Küche, Boden und Treppe. Komplette Badsanierung mit Partnerbetrieben aus einer Hand. 0176 620 419 92.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="Mykhailo Sibahatov">
+  <meta name="copyright" content="Designentwurf und Code © 2026 Mykhailo Sibahatov. Alle Rechte vorbehalten.">
+  <meta name="theme-color" content="#1E3793">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Karst Fliesenleger · Neubrandenburg">
+  <meta property="og:description" content="Fliesen, Platten und Mosaik, sauber verlegt. Badsanierung aus einer Hand.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <link rel="preload" href="fonts/barlow-condensed-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <script>document.documentElement.classList.add('js');try{if(sessionStorage.getItem('karst-pre'))document.documentElement.classList.add('no-preload');sessionStorage.setItem('karst-pre','1')}catch(e){}</script>
+  <link rel="stylesheet" href="css/styles.css?v=2">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Karst Fliesenleger",
+    "founder": "Oliver Karst",
+    "description": "Fliesen-, Platten- und Mosaikverlegung, Badsanierung mit Partnerbetrieben aus einer Hand.",
+    "telephone": "+49 176 62041992",
+    "email": "fliesenleger@oliverkarst.de",
+    "address": { "@type": "PostalAddress", "streetAddress": "Quarzstraße 7", "postalCode": "17036", "addressLocality": "Neubrandenburg", "addressCountry": "DE" },
+    "geo": { "@type": "GeoCoordinates", "latitude": 53.5431845, "longitude": 13.3156043 },
+    "areaServed": "Neubrandenburg und Umgebung",
+    "openingHours": "Mo-Fr 07:00-18:00",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "4" }
+  }
+  </script>
+</head>
+<body>
+  <!-- icon sprite: Heroicons (MIT), outline 24 -->
+  <svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"/></symbol>
+  </svg>
+
+  <!-- preloader: the logo's tiles are laid one by one (≈1.4s, skipped for reduced motion) -->
+  <div class="preloader" aria-hidden="true">
+    <svg class="preloader__mark" viewBox="101.0 53.4 99.6 229.5"><path style="--i:0" class="t0" d="M159.25 55.38L148.38 77.88L159.75 91.38L172.38 73.00Z"/><path style="--i:1" class="t1" d="M174.38 75.88L161.38 93.88L170.25 108.62L183.75 94.38Z"/><path style="--i:2" class="t0" d="M147.38 80.62L136.00 102.12L144.88 112.38L157.75 94.25Z"/><path style="--i:3" class="t1" d="M121.88 94.88L112.75 120.25L120.88 125.75L132.25 103.50Z"/><path style="--i:4" class="t0" d="M134.75 105.38L123.38 127.25L130.50 133.75L143.38 115.50Z"/><path style="--i:5" class="t0" d="M192.88 119.25L179.25 129.75L183.12 145.62L196.75 138.12Z"/><path style="--i:6" class="t1" d="M111.88 123.75L103.00 149.12L107.88 151.38L119.75 128.88Z"/><path style="--i:7" class="t1" d="M154.00 131.12L140.25 145.38L144.88 153.25L159.00 142.38Z"/><path style="--i:8" class="t0" d="M198.60 142.98L198.50 143.12L196.75 141.38L183.75 148.88L185.12 164.38L186.00 164.88L198.38 160.38L198.25 155.50L198.60 155.12Z"/><path style="--i:9" class="t1" d="M138.38 147.75L125.00 161.75L128.00 166.50L142.50 155.62Z"/><path style="--i:10" class="t0" d="M144.25 158.50L130.38 168.62L132.75 174.25L146.88 166.38Z"/><path style="--i:11" class="t1" d="M164.38 160.12L150.50 167.62L152.62 176.75L165.62 172.25Z"/><path style="--i:12" class="t0" d="M198.12 163.38L185.25 168.25L184.62 183.75L196.88 181.25Z"/><path style="--i:13" class="t1" d="M147.75 169.38L134.50 176.75L136.38 182.88L149.38 178.38Z"/><path style="--i:14" class="t0" d="M166.12 175.25L153.38 179.75L153.62 189.50L166.25 187.38Z"/><path style="--i:15" class="t0" d="M196.12 185.12L184.12 187.50L181.38 202.62L192.50 202.38Z"/><path style="--i:16" class="t1" d="M165.88 190.50L153.88 192.50L153.12 202.25L164.12 202.50Z"/><path style="--i:17" class="t1" d="M166.62 205.25L163.00 217.38L172.25 219.75L177.25 205.88Z"/><path style="--i:18" class="t0" d="M190.75 205.50L180.50 205.50L175.25 220.38L184.50 222.25Z"/><path style="--i:19" class="t1" d="M161.62 220.88L156.25 232.62L164.12 235.62L170.88 222.50Z"/><path style="--i:20" class="t1" d="M183.00 225.12L173.75 223.50L166.75 237.12L174.38 240.12Z"/><path style="--i:21" class="t0" d="M144.88 230.88L139.25 240.25L144.50 244.50L151.88 234.50Z"/><path style="--i:22" class="t1" d="M162.25 238.38L154.38 235.38L147.25 246.50L153.38 250.25Z"/><path style="--i:23" class="t0" d="M130.50 237.25L125.38 244.75L128.75 249.62L135.25 241.62Z"/><path style="--i:24" class="t1" d="M172.25 242.38L164.75 239.62L155.25 252.38L161.00 256.12Z"/><path style="--i:25" class="t1" d="M137.88 243.00L130.88 251.88L134.38 256.62L143.00 247.00Z"/><path style="--i:26" class="t0" d="M123.50 247.75L117.38 255.62L118.88 259.62L126.75 252.25Z"/><path style="--i:27" class="t0" d="M145.62 248.62L136.12 258.62L139.38 263.38L150.75 253.00Z"/><path style="--i:28" class="t0" d="M129.00 254.38L120.25 262.38L121.38 266.88L131.62 259.25Z"/><path style="--i:29" class="t1" d="M134.38 261.12L122.50 269.62L123.75 273.62L137.25 265.38Z"/><path style="--i:30" class="t0" d="M139.38 267.50L125.12 276.75L126.38 280.88L142.38 271.88Z"/></svg>
+  </div>
+
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" data-open="false" aria-label="Hauptnavigation">
+        <a class="navbar__brand" href="#top" aria-label="Karst Fliesenleger, zur Startseite">
+          <img src="assets/logo.svg" width="314" height="230" alt="Karst Fliesenleger">
+        </a>
+        <div class="navbar__menu" id="menu">
+          <div class="navbar__sheet">
+          <ul class="navbar__links">
+            <li><a class="navbar__link" href="#leistungen">Leistungen<svg aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="navbar__link" href="#vorher-nachher">Vorher / Nachher<svg aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="navbar__link" href="#projekte">Projekte<svg aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="navbar__link" href="#ueber-mich">Über mich<svg aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="navbar__link" href="#bewertungen">Bewertungen<svg aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+          </ul>
+          <div class="navbar__foot">
+            <a class="btn btn--primary" href="#kontakt">Anfrage senden<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost" href="tel:+4917662041992"><svg aria-hidden="true"><use href="#i-phone"/></svg>0176 620 419 92</a>
+          </div>
+          </div>
+        </div>
+        <div class="navbar__actions">
+          <a class="btn btn--primary navbar__cta" href="#kontakt">Anfrage senden</a>
+          <a class="navbar__call" href="tel:+4917662041992" aria-label="Anrufen: 0176 620 419 92">
+            <svg class="ring" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="ring__w2" d="M13 2a9 9 0 0 1 9 9"/><path class="ring__w1" d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            <span class="navbar__call-num">0176 620 419 92</span>
+          </a>
+          <button class="navbar__toggle" type="button" aria-expanded="false" aria-controls="menu">
+            <span class="visually-hidden">Menü öffnen</span>
+            <span class="burger" aria-hidden="true"><span></span><span></span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="nav-scrim" aria-hidden="true"></div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <span class="stripes stripes--hero" aria-hidden="true"></span>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="eyebrow eyebrow--light"><span>Fliesenleger · Neubrandenburg &amp; Umgebung</span></div>
+          <h1 class="hero__title" id="hero-title">Fliesen, Platten &amp; Mosaik, <span class="hl">sauber verlegt.</span></h1>
+          <div class="hero__lead"><p>Ich bin Oliver Karst und verlege Fliesen in Bädern, Küchen, auf Böden und Treppen. Auf Wunsch übernehme ich mit festen Partnerbetrieben die komplette Badsanierung, alles aus einer Hand.</p></div>
+          <div class="hero__actions">
+            <a class="btn btn--ice btn--lg" href="#kontakt">Kostenlos anfragen<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--outline-light btn--lg" href="tel:+4917662041992"><svg aria-hidden="true"><use href="#i-phone"/></svg>0176 620 419 92</a>
+          </div>
+          <ul class="hero__facts">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Termine oft kurzfristig</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Badsanierung aus einer Hand</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Persönlich vor Ort</li>
+          </ul>
+        </div>
+        <figure class="hero__media">
+          <span class="stripes stripes--media" aria-hidden="true"></span>
+          <div class="hero__photo">
+            <img src="assets/img/bad-walk-in.webp" srcset="assets/img/bad-walk-in-800.webp 800w, assets/img/bad-walk-in.webp 1600w" sizes="(min-width: 64rem) 46vw, 100vw" width="1600" height="1200" alt="Helles Bad mit bodengleicher Walk-in-Dusche, Glaswand und Fliesen in Holzoptik" fetchpriority="high">
+          </div>
+          <a class="rating-chip" href="https://maps.google.com/?cid=9360123013799228082" target="_blank" rel="noopener">
+            <span class="rating-chip__score">4,5</span>
+            <span class="rating-chip__body">
+              <span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg class="half"><use href="#i-star"/></svg></span>
+              <span class="rating-chip__src">Google-Bewertungen</span>
+            </span>
+            <span class="visually-hidden">4,5 von 5 Sternen bei Google, öffnet Google Maps</span>
+          </a>
+          <figcaption class="photo-tag">Walk-in-Dusche, Neubrandenburg</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ LEISTUNGEN ============ -->
+    <section class="section" id="leistungen" aria-labelledby="leistungen-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow"><span>Leistungen</span></div>
+          <h2 id="leistungen-title">Vom Gäste-WC bis zur <span class="hl">Außentreppe</span></h2>
+          <div class="section-head__lead"><p>Wand und Boden, innen und außen. Material, Format und Fugenbild besprechen wir direkt bei Ihnen vor Ort.</p></div>
+        </div>
+        <div class="grout grout--services reveal">
+          <article class="service">
+            <div class="service__img"><img src="assets/img/bad-wanne-holzoptik-700.webp" width="700" height="525" loading="lazy" decoding="async" alt="Badewanne mit Verkleidung in Holzoptik und weißen Großformatfliesen"></div>
+            <div class="service__body">
+              <h3>Komplette Badsanierung</h3>
+              <p>Rückbau, Estrich, Putz, Sanitär und Maler über feste Partnerbetriebe. Sie haben einen Ansprechpartner und einen Zeitplan.</p>
+            </div>
+          </article>
+          <article class="service">
+            <div class="service__img"><img src="assets/img/bad-dusche-nischen-600.webp" width="600" height="800" loading="lazy" decoding="async" alt="Dusche mit Glaswand und zwei eingelassenen Wandnischen"></div>
+            <div class="service__body">
+              <h3>Fliesen, Platten &amp; Mosaik</h3>
+              <p>Wand- und Bodenfliesen, Großformate, Glasmosaik und Bordüren, präzise geschnitten und gleichmäßig verfugt.</p>
+            </div>
+          </article>
+          <article class="service">
+            <div class="service__img"><img src="assets/img/treppe-innen-700.webp" width="700" height="525" loading="lazy" decoding="async" alt="Innentreppe mit grauen Feinsteinzeug-Stufen"></div>
+            <div class="service__body">
+              <h3>Treppen &amp; Stufen</h3>
+              <p>Innen- und Außentreppen, Eingangsstufen und Podeste, mit sauberen Kanten und passenden Sockeln.</p>
+            </div>
+          </article>
+          <article class="service">
+            <div class="service__img"><img src="assets/img/holzoptik-boden.webp" width="960" height="543" loading="lazy" decoding="async" alt="Boden aus Fliesen in farbiger Vintage-Holzoptik"></div>
+            <div class="service__body">
+              <h3>Böden</h3>
+              <p>Feinsteinzeug, Holzoptik oder Hochglanz für Wohnräume, Flure und Küchen, plan verlegt auf tragfähigem Untergrund.</p>
+            </div>
+          </article>
+          <article class="service">
+            <div class="service__img"><img src="assets/img/kamin-600.webp" width="600" height="800" loading="lazy" decoding="async" alt="Kamin mit Verkleidung aus großformatigen weißen Fliesen"></div>
+            <div class="service__body">
+              <h3>Kamin &amp; Sonderflächen</h3>
+              <p>Kaminverkleidungen, Nischen, Ablagen und Podeste nach Maß, auch dort, wo kein Standardformat passt.</p>
+            </div>
+          </article>
+          <article class="service service--note">
+            <div class="service__body">
+              <h3>Reparatur &amp; Beratung</h3>
+              <p>Kleine Aufträge sind willkommen:</p>
+              <ul class="ticks">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>einzelne Fliesen tauschen</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Fugen und Silikon erneuern</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>technische Beratung</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Hilfe bei der Fliesenwahl</li>
+              </ul>
+              <a class="link-arrow" href="#kontakt">Einfach nachfragen<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VORHER / NACHHER ============ -->
+    <section class="section section--tint" id="vorher-nachher" aria-labelledby="ba-title">
+      <div class="container ba-grid">
+        <div class="ba-copy reveal">
+          <div class="eyebrow"><span>Vorher / Nachher</span></div>
+          <h2 id="ba-title">Ein Bad, <span class="hl">zwei Welten</span></h2>
+          <div class="ba-copy__lead"><p>Schieben Sie den Regler und sehen Sie selbst: dieselbe Ecke vor und nach dem Umbau.</p></div>
+          <dl class="ba-meta">
+            <div><dt>Projekt</dt><dd>Badumbau, Neubrandenburg</dd></div>
+            <div><dt>Vorher</dt><dd>Alte Wanne ausgebaut, Untergrund neu aufgebaut</dd></div>
+            <div><dt>Nachher</dt><dd>Eckwanne eingemauert, Wand und Boden in Glasmosaik, sauber an den Bestand angeschlossen</dd></div>
+          </dl>
+        </div>
+        <div class="ba-stage reveal">
+          <div class="ba" style="--pos: 50%">
+            <img class="ba__img" src="assets/img/nachher-bad-mosaik.webp" width="930" height="543" loading="lazy" decoding="async" alt="Nachher: Eckwanne und Boden in schwarz-weißem Glasmosaik">
+            <div class="ba__before">
+              <img class="ba__img" src="assets/img/vorher-bad-mosaik.webp" width="930" height="543" loading="lazy" decoding="async" alt="Vorher: ausgebaute Wanne, Untergrund mit OSB-Platten, Baustellenwerkzeug">
+            </div>
+            <span class="ba__tag ba__tag--before" aria-hidden="true">Vorher</span>
+            <span class="ba__tag ba__tag--after" aria-hidden="true">Nachher</span>
+            <div class="ba__handle" role="slider" tabindex="0" aria-label="Vorher-Nachher-Vergleich: Anteil des Vorher-Fotos" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 % Vorher">
+              <span class="ba__knob" aria-hidden="true"><svg><use href="#i-left"/></svg><svg><use href="#i-right"/></svg></span>
+            </div>
+          </div>
+          <p class="ba-hint" aria-hidden="true">Regler ziehen oder Pfeiltasten nutzen</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJEKTE ============ -->
+    <section class="section" id="projekte" aria-labelledby="projekte-title">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div class="section-head__main">
+            <div class="eyebrow"><span>Projekte</span></div>
+            <h2 id="projekte-title">Arbeiten aus der <span class="hl">Region</span></h2>
+          </div>
+          <div class="chips" role="group" aria-label="Projekte filtern">
+            <button class="chip" type="button" data-filter="alle" aria-pressed="true">Alle</button>
+            <button class="chip" type="button" data-filter="bad" aria-pressed="false">Bäder &amp; Duschen</button>
+            <button class="chip" type="button" data-filter="treppe" aria-pressed="false">Treppen &amp; Stufen</button>
+            <button class="chip" type="button" data-filter="boden" aria-pressed="false">Böden &amp; mehr</button>
+          </div>
+        </div>
+        <ul class="gallery reveal" aria-live="polite">
+          <li class="g g--big" data-cat="bad"><button type="button" data-full="assets/img/bad-walk-in.webp"><img src="assets/img/bad-walk-in.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Walk-in-Dusche mit Holzoptik-Boden"><span class="g__cap">Walk-in-Dusche mit Holzoptik-Boden</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--wide" data-cat="treppe"><button type="button" data-full="assets/img/eingangsstufen.webp"><img src="assets/img/eingangsstufen-700.webp" width="700" height="394" loading="lazy" decoding="async" alt="Zwei Eingangsstufen aus grauen Natursteinplatten"><span class="g__cap">Eingangsstufen aus Steinplatten</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g" data-cat="bad"><button type="button" data-full="assets/img/bad-bordure.webp"><img src="assets/img/bad-bordure-700.webp" width="700" height="525" loading="lazy" decoding="async" alt="Badewanne mit Mosaik-Bordüre"><span class="g__cap">Bad mit Mosaik-Bordüre</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--tall" data-cat="boden"><button type="button" data-full="assets/img/kamin.webp"><img src="assets/img/kamin-600.webp" width="600" height="800" loading="lazy" decoding="async" alt="Kaminverkleidung aus großformatigen Fliesen"><span class="g__cap">Kaminverkleidung im Großformat</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g" data-cat="treppe"><button type="button" data-full="assets/img/treppe-grau.webp"><img src="assets/img/treppe-grau.webp" width="960" height="720" loading="lazy" decoding="async" alt="Treppenhaus mit Fliesen in Betonoptik"><span class="g__cap">Treppenhaus in Betonoptik</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g" data-cat="treppe"><button type="button" data-full="assets/img/treppe-innen.webp"><img src="assets/img/treppe-innen-700.webp" width="700" height="525" loading="lazy" decoding="async" alt="Innentreppe in grauem Feinsteinzeug"><span class="g__cap">Treppe in Feinsteinzeug</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--tall" data-cat="bad"><button type="button" data-full="assets/img/dusche-rinne.webp"><img src="assets/img/dusche-rinne.webp" width="543" height="960" loading="lazy" decoding="async" alt="Bodengleiche Dusche mit Duschrinne und Mosaikband"><span class="g__cap">Duschrinne mit Mosaikband</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--tall" data-cat="treppe"><button type="button" data-full="assets/img/aussentreppe.webp"><img src="assets/img/aussentreppe-600.webp" width="600" height="800" loading="lazy" decoding="async" alt="Außentreppe mit terrakottafarbenen Fliesen"><span class="g__cap">Außentreppe in Cotto-Optik</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--tall" data-cat="bad"><button type="button" data-full="assets/img/dusche-glas.webp"><img src="assets/img/dusche-glas-600.webp" width="600" height="800" loading="lazy" decoding="async" alt="Dusche mit Glaswand und Mosaikstreifen"><span class="g__cap">Dusche mit Mosaikstreifen</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--tall" data-cat="boden"><button type="button" data-full="assets/img/boden-schwarz.webp"><img src="assets/img/boden-schwarz.webp" width="720" height="1273" loading="lazy" decoding="async" alt="Schwarzer Hochglanz-Fliesenboden"><span class="g__cap">Hochglanzboden in Schwarz</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--tall" data-cat="bad"><button type="button" data-full="assets/img/bad-dusche-nischen.webp"><img src="assets/img/bad-dusche-nischen-600.webp" width="600" height="800" loading="lazy" decoding="async" alt="Duschbereich mit zwei Wandnischen"><span class="g__cap">Duschbereich mit Wandnischen</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g g--wide" data-cat="boden"><button type="button" data-full="assets/img/holzoptik-boden.webp"><img src="assets/img/holzoptik-boden.webp" width="960" height="543" loading="lazy" decoding="async" alt="Bodenfliesen in Vintage-Holzoptik"><span class="g__cap">Boden in Vintage-Holzoptik</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+          <li class="g" data-cat="bad"><button type="button" data-full="assets/img/bad-wanne-holzoptik.webp"><img src="assets/img/bad-wanne-holzoptik-700.webp" width="700" height="525" loading="lazy" decoding="async" alt="Badewanne mit Holzoptik-Verkleidung"><span class="g__cap">Wannenverkleidung in Holzoptik</span><svg class="g__zoom" aria-hidden="true"><use href="#i-expand"/></svg></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ÜBER MICH ============ -->
+    <section class="section section--navy" id="ueber-mich" aria-labelledby="ueber-title">
+      <div class="container about">
+        <figure class="about__media reveal">
+          <span class="stripes stripes--about" aria-hidden="true"></span>
+          <div class="about__photo"><img src="assets/img/oliver-transporter.webp" width="720" height="720" loading="lazy" decoding="async" alt="Oliver Karst vor seinem blauen Firmentransporter mit Karst-Fliesenleger-Beschriftung"></div>
+          <figcaption class="photo-tag photo-tag--ice">Erkennbar am blauen Transporter</figcaption>
+        </figure>
+        <div class="about__copy reveal">
+          <div class="eyebrow eyebrow--light"><span>Über mich</span></div>
+          <h2 id="ueber-title">Oliver Karst, <span class="hl">Ihr Fliesenleger</span></h2>
+          <div class="about__text">
+            <p>Wenn Sie anrufen, sprechen Sie mit mir, und ich komme auch selbst zum Termin vor Ort. Ich schaue mir Raum und Untergrund an, berate Sie zu Material und Format und sage ehrlich, was sinnvoll ist.</p>
+            <p>Für Estrich, Putz, Mauer-, Maler- und Sanitärarbeiten arbeite ich mit festen Partnerbetrieben zusammen. So bekommen Sie die komplette Sanierung aus einer Hand, abgestimmt und ohne Koordinationsaufwand.</p>
+          </div>
+          <ul class="about__points">
+            <li><b>Persönlich</b><span>Ein Ansprechpartner vom ersten Anruf bis zur Abnahme</span></li>
+            <li><b>Verlässlich</b><span>Pünktlich, ordentlich, auch mal samstags für Absprachen</span></li>
+            <li><b>Vernetzt</b><span>Feste Partner für alle Gewerke rund ums Bad</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABLAUF ============ -->
+    <section class="section" id="ablauf" aria-labelledby="ablauf-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow"><span>Ablauf</span></div>
+          <h2 id="ablauf-title">So läuft Ihr <span class="hl">Projekt</span></h2>
+        </div>
+        <ol class="grout grout--steps reveal">
+          <li class="step"><span class="step__n">01</span><h3>Anruf oder Anfrage</h3><p>Kurz schildern, worum es geht, gern mit ein paar Fotos per E-Mail.</p></li>
+          <li class="step"><span class="step__n">02</span><h3>Termin vor Ort</h3><p>Ich messe auf, prüfe den Untergrund und berate zu Fliesen, Format und Fugen.</p></li>
+          <li class="step"><span class="step__n">03</span><h3>Klares Angebot</h3><p>Sie erhalten ein schriftliches Angebot mit allen Positionen und einem Zeitplan.</p></li>
+          <li class="step"><span class="step__n">04</span><h3>Ausführung &amp; Übergabe</h3><p>Saubere Arbeit, aufgeräumte Baustelle und eine gemeinsame Abnahme.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ BEWERTUNGEN ============ -->
+    <section class="section section--tint" id="bewertungen" aria-labelledby="bewertungen-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow"><span>Bewertungen</span></div>
+          <h2 id="bewertungen-title">Was Kunden <span class="hl">sagen</span></h2>
+        </div>
+        <div class="reviews reveal">
+          <div class="review review--score">
+            <div class="score"><span class="score__num">4,5</span><span class="score__of">/ 5</span></div>
+            <span class="stars stars--lg" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg class="half"><use href="#i-star"/></svg></span>
+            <p class="score__src">Durchschnitt aus 4 Google-Bewertungen</p>
+            <a class="btn btn--ice" href="https://maps.google.com/?cid=9360123013799228082" target="_blank" rel="noopener">Auf Google ansehen<svg aria-hidden="true"><use href="#i-out"/></svg></a>
+          </div>
+          <figure class="review">
+            <span class="stars" aria-label="5 von 5 Sternen"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote><p>„Gute Beratung, zuverlässig und pünktlich und die Arbeiten sind sehr ordentlich ausgeführt. Es gab kurzfristig einen Termin und für Absprachen ist er auch mal am Samstag vorbeigekommen. Wir sind rundum zufrieden.“</p></blockquote>
+            <figcaption><b>Kristjan K.</b><span>Google · Local Guide</span></figcaption>
+          </figure>
+          <figure class="review">
+            <span class="stars" aria-label="5 von 5 Sternen"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote><p>„Top Arbeit, Jungs! Auch wenn immer nur kurz über mehrere Tage in unserer Küche gearbeitet wurde: alles bestens, wir sind sehr zufrieden. Das Ergebnis kann sich mehr als sehen lassen.“</p></blockquote>
+            <figcaption><b>Nico P. F.</b><span>Google · Küche</span></figcaption>
+          </figure>
+          <figure class="review">
+            <span class="stars" aria-label="5 von 5 Sternen"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote><p>„Top Fliesenleger! Gute Beratung und engagiert. Ich bin mit seiner Leistung sehr zufrieden.“</p></blockquote>
+            <figcaption><b>Cindy</b><span>Google</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq">
+        <div class="faq__head reveal">
+          <div class="eyebrow"><span>Häufige Fragen</span></div>
+          <h2 id="faq-title">Gut zu <span class="hl">wissen</span></h2>
+          <div class="faq__lead"><p>Ihre Frage ist nicht dabei? Rufen Sie einfach an: <a href="tel:+4917662041992">0176 620 419 92</a>.</p></div>
+        </div>
+        <div class="acc-list reveal">
+          <div class="acc is-open">
+            <h3><button class="acc__btn" type="button" aria-expanded="true" aria-controls="acc-1" id="acc-1-btn">Übernehmen Sie auch die komplette Badsanierung?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="acc-1" role="region" aria-labelledby="acc-1-btn"><div class="acc__inner"><p>Ja. Die Fliesenarbeiten mache ich selbst, für Rückbau, Estrich, Putz, Sanitär und Maler arbeite ich mit festen Partnerbetrieben zusammen. Sie haben einen Ansprechpartner und einen abgestimmten Zeitplan.</p></div></div>
+          </div>
+          <div class="acc">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-2" id="acc-2-btn">Wie schnell bekomme ich einen Termin?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="acc-2" role="region" aria-labelledby="acc-2-btn"><div class="acc__inner"><p>Einen Besichtigungstermin gibt es meist innerhalb weniger Tage, oft auch kurzfristig. Den Start der Arbeiten stimmen wir danach gemeinsam ab.</p></div></div>
+          </div>
+          <div class="acc">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-3" id="acc-3-btn">Was kostet das Verlegen pro Quadratmeter?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="acc-3" role="region" aria-labelledby="acc-3-btn"><div class="acc__inner"><p>Das hängt von Format, Untergrund und Aufwand ab: Mosaik und Großformat brauchen mehr Zeit als Standardfliesen, ein unebener Untergrund muss erst vorbereitet werden. Nach der Besichtigung erhalten Sie ein schriftliches Angebot mit allen Positionen.</p></div></div>
+          </div>
+          <div class="acc">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-4" id="acc-4-btn">Kann ich die Fliesen selbst aussuchen?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="acc-4" role="region" aria-labelledby="acc-4-btn"><div class="acc__inner"><p>Natürlich. Ich berate Sie gern bei der Auswahl und sage Ihnen, welche Formate und Qualitäten zu Raum und Untergrund passen. Wer das Material besorgt, klären wir vorab.</p></div></div>
+          </div>
+          <div class="acc">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-5" id="acc-5-btn">Machen Sie auch kleine Reparaturen?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="acc-5" role="region" aria-labelledby="acc-5-btn"><div class="acc__inner"><p>Ja. Eine gesprungene Fliese, eine undichte Silikonfuge oder ausgebrochene Fugen: Auch kleine Aufträge sind willkommen.</p></div></div>
+          </div>
+          <div class="acc">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-6" id="acc-6-btn">In welchem Gebiet sind Sie unterwegs?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="acc-6" role="region" aria-labelledby="acc-6-btn"><div class="acc__inner"><p>In Neubrandenburg und der Umgebung an der Mecklenburgischen Seenplatte. Fragen Sie gern auch für weitere Orte an.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CALL BAND (van side) ============ -->
+    <section class="callband" aria-label="Direkt anrufen">
+      <span class="stripes stripes--band" aria-hidden="true"></span>
+      <div class="container callband__grid">
+        <div class="callband__copy">
+          <p class="callband__kicker">Lieber direkt sprechen?</p>
+          <p class="callband__hours"><svg aria-hidden="true"><use href="#i-clock"/></svg>Mo–Fr, 7–18 Uhr</p>
+        </div>
+        <a class="callband__num" href="tel:+4917662041992"><span class="visually-hidden">Anrufen: </span>0176 / 620 41 99 2</a>
+      </div>
+    </section>
+
+    <!-- ============ KONTAKT ============ -->
+    <section class="section" id="kontakt" aria-labelledby="kontakt-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow"><span>Kontakt</span></div>
+          <h2 id="kontakt-title">Projekt <span class="hl">anfragen</span></h2>
+          <div class="section-head__lead"><p>Schreiben Sie mir kurz, worum es geht. Ich melde mich in der Regel innerhalb von zwei Werktagen.</p></div>
+        </div>
+        <div class="contact">
+          <aside class="contact__card reveal" aria-label="Kontaktdaten">
+            <img class="contact__logo" src="assets/logo-van.svg" width="314" height="230" alt="" loading="lazy">
+            <ul class="contact__list">
+              <li><a href="tel:+4917662041992"><span class="contact__ico"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span><small>Mobil</small>0176 620 419 92</span></a></li>
+              <li><a href="mailto:fliesenleger@oliverkarst.de"><span class="contact__ico"><svg aria-hidden="true"><use href="#i-mail"/></svg></span><span><small>E-Mail</small>fliesenleger<wbr>@oliverkarst.de</span></a></li>
+              <li><a href="https://maps.google.com/?cid=9360123013799228082" target="_blank" rel="noopener"><span class="contact__ico"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span><small>Adresse</small>Quarzstraße 7, 17036 Neubrandenburg</span></a></li>
+              <li><div><span class="contact__ico"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span><small>Erreichbar</small>Mo–Fr, 7–18 Uhr</span></div></li>
+            </ul>
+          </aside>
+          <div class="form-cell reveal">
+            <form class="form" id="contact-form" novalidate>
+              <h3 class="form__title">Ihre Anfrage</h3>
+              <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY">
+              <input type="hidden" name="subject" value="Neue Anfrage über karst-fliesenleger">
+              <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <div class="form__grid">
+                <div class="field">
+                  <label for="f-name">Name *</label>
+                  <input class="input" id="f-name" name="name" type="text" autocomplete="name" required>
+                  <span class="field__err" id="f-name-err"></span>
+                </div>
+                <div class="field">
+                  <label for="f-tel">Telefon *</label>
+                  <input class="input" id="f-tel" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+                  <span class="field__err" id="f-tel-err"></span>
+                </div>
+                <div class="field">
+                  <label for="f-mail">E-Mail</label>
+                  <input class="input" id="f-mail" name="email" type="email" autocomplete="email">
+                  <span class="field__err" id="f-mail-err"></span>
+                </div>
+                <div class="field">
+                  <label for="f-art">Worum geht es?</label>
+                  <select class="input" id="f-art" name="projekt">
+                    <option value="">Bitte wählen</option>
+                    <option>Komplette Badsanierung</option>
+                    <option>Fliesen an Wand oder Boden</option>
+                    <option>Treppe oder Stufen</option>
+                    <option>Kamin oder Sonderfläche</option>
+                    <option>Reparatur</option>
+                    <option>Etwas anderes</option>
+                  </select>
+                </div>
+                <div class="field field--full">
+                  <label for="f-msg">Nachricht</label>
+                  <textarea class="input" id="f-msg" name="message" rows="4" placeholder="Raum, ungefähre Fläche, Wunschtermin …"></textarea>
+                </div>
+                <div class="field field--full field--check">
+                  <label class="check" for="f-ok">
+                    <input id="f-ok" name="consent" type="checkbox" required>
+                    <span class="check__box" aria-hidden="true"><svg><use href="#i-check"/></svg></span>
+                    <span class="check__text">Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden (siehe <a href="#datenschutz">Datenschutz</a>). *</span>
+                  </label>
+                  <span class="field__err" id="f-ok-err"></span>
+                </div>
+              </div>
+              <div class="form__foot">
+                <button class="btn btn--primary btn--lg" type="submit">Anfrage senden<svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+                <p class="form__note">* Pflichtfelder</p>
+              </div>
+              <div class="form__done" role="status" aria-live="polite">
+                <span class="form__done-ico" aria-hidden="true"><svg><use href="#i-check"/></svg></span>
+                <p class="form__status"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo-white.svg" width="314" height="230" alt="Karst Fliesenleger" loading="lazy">
+        <p>Fliesen-, Platten- und Mosaikverlegung in Neubrandenburg und Umgebung.</p>
+      </div>
+      <nav class="footer__col" aria-label="Seiten">
+        <h2>Seite</h2>
+        <ul>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#vorher-nachher">Vorher / Nachher</a></li>
+          <li><a href="#projekte">Projekte</a></li>
+          <li><a href="#ueber-mich">Über mich</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h2>Kontakt</h2>
+        <ul>
+          <li><a href="tel:+4917662041992">0176 620 419 92</a></li>
+          <li><a href="mailto:fliesenleger@oliverkarst.de">fliesenleger<wbr>@oliverkarst.de</a></li>
+          <li>Quarzstraße 7<br>17036 Neubrandenburg</li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Rechtliches</h2>
+        <ul>
+          <li><a href="#impressum" id="impressum">Impressum</a></li>
+          <li><a href="#datenschutz" id="datenschutz">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> Karst Fliesenleger · Oliver Karst</p>
+      <p class="footer__credit">Inhalte © Karst Fliesenleger · Designentwurf und Code © 2026 Mykhailo Sibahatov, Nutzung nur mit schriftlicher Vereinbarung</p>
+    </div>
+  </footer>
+
+  <!-- lightbox -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Projektfoto" hidden>
+    <figure class="lightbox__fig">
+      <img class="lightbox__img" alt="">
+      <figcaption class="lightbox__cap"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__close" type="button" aria-label="Schließen"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
+    <button class="lightbox__btn lightbox__prev" type="button" aria-label="Vorheriges Foto"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+    <button class="lightbox__btn lightbox__next" type="button" aria-label="Nächstes Foto"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
+    <p class="lightbox__count" aria-live="polite"></p>
+  </div>
+
+  <p class="draft-tag" aria-label="Designentwurf von Mykhailo Sibahatov, nicht zur Veröffentlichung freigegeben"><span class="draft-tag__dot" aria-hidden="true"></span>Entwurf · © M. Sibahatov</p>
+
+  <script src="js/main.js?v=2" defer></script>
+</body>
+</html>
